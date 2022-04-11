@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es2016"],
+      "outDir": "dist",
+      "module": "commonjs",
+      "removeComments": false,
+      "moduleResolution": "node",
+      "typeRoots": [
+        "node_modules/@types/"
+      ],
+      "types": [
+        "node",
+        "jest"
+      ]
+    },
+    "formatterOptions": {
+      "baseIndentSize": 0,
+      "indentSize": 2,
+      "indentStyle": "smart",
+      "tabSize": 2,
+      "TabSize": 2,
+    },
+    "include": [
+      "**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ],
+  }

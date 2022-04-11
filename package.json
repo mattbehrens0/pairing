@@ -1,0 +1,25 @@
+{
+    "name": "paring",
+    "version": "0.0.1",
+    "description": "",
+    "author": "",
+    "private": true,
+    "license": "UNLICENSED",
+    "scripts": {
+        "tsc": "tsc",
+        "start": "npm run tsc ; node dist/src/index.js"
+    },
+    "dependencies": {
+        "express": "^4.17.3",
+        "express-openapi-validator": "^4.13.7",
+        "jsonwebtoken": "^8.5.1",
+        "request": "^2.88.2",
+        "request-promise": "^4.2.6",
+        "typescript": "^4.6.3"
+    },
+    "devDependencies": {
+        "jest": "^27.5.1",
+        "ts-jest": "^27.1.4",
+        "@types/jest": "^27.4.1"
+    }
+}

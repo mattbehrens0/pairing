@@ -1,0 +1,23 @@
+openapi: 3.0.3
+info:
+  version: 1.0.0
+  title: pairing
+  description: pairing
+paths:
+  /pairing:
+      post:
+        description: post message
+        x-eov-operation-handler: pairingController
+        x-eov-operation-id: pair
+        responses:
+          '200':
+            description: valid response
+            content:
+              application/json:
+                schema: {}
+          '500':
+            description: invalid
+            content:
+              application/json:
+                schema: {}
+components: {}
